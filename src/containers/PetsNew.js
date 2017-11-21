@@ -48,4 +48,5 @@ class PetsNew extends Component {
   }
 };
 
+
 export default connect(null, { addPet })(PetsNew);

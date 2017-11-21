@@ -6,7 +6,7 @@ export function fetchPets() {
   ];
   return {
     type: 'FETCH_PETS',
-    pets
+    pets: pets
   };
 }
 
